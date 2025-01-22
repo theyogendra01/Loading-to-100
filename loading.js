@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             loadingBarFront.style.width = `${progress}%`;
         } else {
             clearInterval(interval);
+            alert("Your device is not compatible with the application");
         }
     }, 50); // Adjust the interval time to control the speed of the loading bar
 });

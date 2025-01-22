@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     background: url('https://images.unsplash.com/photo-1685118880197-41c957a05391?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHJhbmRvbSUyMHBob3RvfGVufDB8fDB8fHww') no-repeat center center fixed;
-    background-size:auto;
+    background-size:contain;
     color: #ffffff; /* Text color for better contrast */
     font-family: Arial, sans-serif;
     animation: fadeIn 1s ease-in-out;
